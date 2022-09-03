@@ -1,0 +1,122 @@
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.right{
+
+    margin-left: auto;
+    margin-right: 50px;
+    
+}
+.left{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.right ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly ;
+    gap: 30px;
+
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+li a:hover{
+    text-decoration: underline;
+    color: teal;
+}
+
+
+
+.i{
+    display: flex;
+    height: 80vh;
+
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    
+}
+.i-left {
+    flex: 1;
+}
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-left-wrapper{
+    padding: 50px;
+}
+.i-intro{
+    font-size: 40px;
+    font-weight:normal
+}
+.i-name{
+    font-size: 50px;
+    overflow: hidden;
+    color: teal;
+}
+.i-bio{
+    color:gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.img-wrapper{
+    padding: 50px;
+    margin-left: 150px;
+
+
+}
+.img-wrapper img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    border: 0.5px solid black;
+    
+}  
+.img-wrapper img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+    
+}
+.btn-git{
+    background: transparent;
+    border: 1px solid lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.git{
+    font-size: 20px ;
+}
+.btn-git:hover{
+    background-color: lightskyblue;
+
+}
+.btn-container{
+
+    display: flex;
+    flex-direction: row;
+}
